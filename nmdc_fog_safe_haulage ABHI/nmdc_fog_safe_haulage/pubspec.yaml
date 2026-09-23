@@ -1,0 +1,40 @@
+name: nmdc_fog_safe_haulage
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  cupertino_icons: ^1.0.8
+  firebase_core: 4.5.0
+  firebase_auth: 6.2.0
+  cloud_firestore: ^6.1.3
+  google_sign_in: ^6.1.5
+  google_sign_in_web: ^0.12.3
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  geolocator: ^14.0.3
+  web_socket_channel: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+   - lib/screens/assets/images/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "lib/screens/assets/images/app_icon.jpg"
+  adaptive_icon_background: "#070B14"
+  adaptive_icon_foreground: "lib/screens/assets/images/app_icon.jpg"

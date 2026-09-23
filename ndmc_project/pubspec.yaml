@@ -1,0 +1,34 @@
+name: nmdc_fog_safe_haulage
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  cupertino_icons: ^1.0.8
+  geolocator: ^14.0.3
+#  camera: ^0.11.0
+  sensors_plus: ^5.0.1
+#  audioplayers: ^6.0.0
+  network_info_plus: any
+  shelf: any
+  shelf_web_socket: any
+  web_socket_channel: any
+  yaml: ^3.1.4
+  camera: ^0.12.0+2
+  audioplayers: ^6.7.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+   - lib/screens/assets/images/

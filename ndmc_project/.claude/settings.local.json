@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/abhishektyagi/Downloads/nmdc_fog_safe_haulage/lib -name \"*.dart\" -exec cat {})",
+      "Bash(flutter analyze)",
+      "Bash(flutter test test/collapse_detector_test.dart)",
+      "Bash(flutter test test/v2v_service_test.dart)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "588480893866",
+    "project_id": "terasight-3d790",
+    "storage_bucket": "terasight-3d790.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588480893866:android:320ff5a44bc5ba171091d3",
+        "android_client_info": {
+          "package_name": "com.example.nmdc_fog_safe_haulage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588480893866-mm21th56c84jc6154s5qo9m97op3sih9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nmdc_fog_safe_haulage",
+            "certificate_hash": "fc27cc621ebf5e2b5a808605f0978df93864d40a"
+          }
+        },
+        {
+          "client_id": "588480893866-ob9j6l83qkvpo3ednsbfeh7dam1diem7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkVvVzs0qq-NNjKi5EYsA6z_W24yDGEig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588480893866-ob9j6l83qkvpo3ednsbfeh7dam1diem7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "588480893866-ith8g4142updafbdu8ji1p0mg7vcmcgq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.nmdcFogSafeHaulage"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
